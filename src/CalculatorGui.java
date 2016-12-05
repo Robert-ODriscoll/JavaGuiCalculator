@@ -3,14 +3,14 @@
  */
 import javax.swing.JButton;
 import javax.swing.JFrame;
-import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.ArrayList;
+import javax.swing.*;
 public class CalculatorGui extends JFrame{
+    private static  Thread thread;
     private double temp;
     private double tempResult;
     String display = " ";
@@ -176,7 +176,7 @@ public class CalculatorGui extends JFrame{
             } else if (multiply == true) {
                 tempResult = tempResult * temp;
             } else if (divide == true) {
-                tempResult = tempResult / temp;
+                tempResult = temp /tempResult;
             }
             displayResult.setText(Double.toString(tempResult));
             plus = false;
@@ -185,12 +185,27 @@ public class CalculatorGui extends JFrame{
             divide = false;
         }
     }
-    public static void main(String[] args) {
-        // TODO Auto-generated method stub
-        CalculatorGui calculator = new CalculatorGui();
-        calculator.pack();
-        calculator.setLocationRelativeTo(null);
-        calculator.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        calculator.setVisible(true);
+    public static void main( String args[] )
+    {
+        thread = new Thread() {
+            public void run() {
+                try {
+                    String LookAndFeelDesign = "com.sun.java.swing.plaf.motif.MotifLookAndFeel";
+                    UIManager.setLookAndFeel(LookAndFeelDesign);
+                    CalculatorGui calculator = new CalculatorGui();
+                    calculator.pack();
+                    calculator.setLocationRelativeTo(null);
+                    calculator.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                    calculator.setVisible(true);
+                }
+                catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        };
+        synchronized (thread){
+            thread.start();
+        }
+
     }
 }
