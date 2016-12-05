@@ -2,24 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22294d21-ae38-4b4d-a3b4-19d6693a2ba2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$clear_push.class" afterPath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$clear_push.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$divide_push.class" afterPath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$divide_push.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$eight_push.class" afterPath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$eight_push.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$equals_push.class" afterPath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$equals_push.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$five_push.class" afterPath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$five_push.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$four_push.class" afterPath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$four_push.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$minus_push.class" afterPath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$minus_push.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$multiply_push.class" afterPath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$multiply_push.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$nine_push.class" afterPath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$nine_push.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$one_push.class" afterPath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$one_push.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$plus_push.class" afterPath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$plus_push.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$seven_push.class" afterPath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$seven_push.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$six_push.class" afterPath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$six_push.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$three_push.class" afterPath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$three_push.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$two_push.class" afterPath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$two_push.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$zero_push.class" afterPath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui$zero_push.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui.class" afterPath="$PROJECT_DIR$/out/production/JavaGuiCalculator/CalculatorGui.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CalculatorGui.java" afterPath="$PROJECT_DIR$/src/CalculatorGui.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -50,13 +32,13 @@
       <file leaf-file-name="CalculatorGui.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CalculatorGui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="200" column="37" lean-forward="true" selection-start-line="200" selection-start-column="37" selection-end-line="200" selection-end-column="37" />
+            <state relative-caret-position="1034">
+              <caret line="211" column="39" lean-forward="false" selection-start-line="211" selection-start-column="39" selection-end-line="211" selection-end-column="39" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#0#8632#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#7637#8301#0" expanded="true" />
-                <element signature="e#8300#8301#0" expanded="true" />
+                <element signature="e#7888#8552#0" expanded="true" />
+                <element signature="e#8551#8552#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -603,12 +585,12 @@
       <workItem from="1480701482481" duration="1099000" />
       <workItem from="1480930430633" duration="1116000" />
       <workItem from="1480933614558" duration="204000" />
-      <workItem from="1480939413066" duration="702000" />
+      <workItem from="1480939413066" duration="3088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28001000" />
+    <option name="totallyTimeSpent" value="30387000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -620,7 +602,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3991" y="245" width="2418" height="1318" extended-state="7" />
+    <frame x="3991" y="245" width="2418" height="1318" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -674,10 +656,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#8632#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#7637#8301#0" expanded="true" />
-            <element signature="e#8300#8301#0" expanded="true" />
+            <element signature="e#7888#8552#0" expanded="true" />
+            <element signature="e#8551#8552#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -687,10 +669,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#8632#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#7637#8301#0" expanded="true" />
-            <element signature="e#8300#8301#0" expanded="true" />
+            <element signature="e#7888#8552#0" expanded="true" />
+            <element signature="e#8551#8552#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -700,10 +682,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#8632#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#7637#8301#0" expanded="true" />
-            <element signature="e#8300#8301#0" expanded="true" />
+            <element signature="e#7888#8552#0" expanded="true" />
+            <element signature="e#8551#8552#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -724,10 +706,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#8632#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#7637#8301#0" expanded="true" />
-            <element signature="e#8300#8301#0" expanded="true" />
+            <element signature="e#7888#8552#0" expanded="true" />
+            <element signature="e#8551#8552#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -768,13 +750,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CalculatorGui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="200" column="37" lean-forward="true" selection-start-line="200" selection-start-column="37" selection-end-line="200" selection-end-column="37" />
+        <state relative-caret-position="1034">
+          <caret line="211" column="39" lean-forward="false" selection-start-line="211" selection-start-column="39" selection-end-line="211" selection-end-column="39" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#8632#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#7637#8301#0" expanded="true" />
-            <element signature="e#8300#8301#0" expanded="true" />
+            <element signature="e#7888#8552#0" expanded="true" />
+            <element signature="e#8551#8552#0" expanded="true" />
           </folding>
         </state>
       </provider>

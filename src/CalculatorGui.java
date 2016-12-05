@@ -1,6 +1,8 @@
 /**
  * Created by robertprog on 02/12/2016.
  */
+
+//Import java stuff
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -9,6 +11,8 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
+
+//Declare variables
 public class CalculatorGui extends JFrame{
     private static  Thread thread;
     private double temp;
@@ -35,6 +39,8 @@ public class CalculatorGui extends JFrame{
     private Boolean minus = false;
     private Boolean multiply = false;
     private Boolean divide = false;
+
+    //Design Gui
     public CalculatorGui(){
         JPanel frontPanel = new JPanel();
         frontPanel.setLayout(new GridLayout(4,4));
@@ -80,7 +86,13 @@ public class CalculatorGui extends JFrame{
         button_multiply.addActionListener(new multiply_push());
         button_clear.addActionListener(new clear_push());
         button_equals.addActionListener(new equals_push());
+
+        JLabel lable = new JLabel("", JLabel.LEFT);
+        backPanal.add(lable = new JLabel("Answer"));
+
+
     }
+    //Add action listeners for buttons
     class one_push implements ActionListener{ public void actionPerformed(ActionEvent e){
             display = displayResult.getText();
             displayResult.setText(display + "1");
@@ -185,6 +197,7 @@ public class CalculatorGui extends JFrame{
             divide = false;
         }
     }
+    //main calculator and add look and feel
     public static void main( String args[] )
     {
         thread = new Thread() {
